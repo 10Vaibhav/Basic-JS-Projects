@@ -1,0 +1,124 @@
+html {
+    font-family: 'Arial', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    width: 90%;
+    max-width: 750px;
+    min-width: 320px;
+    margin: 0 auto;
+    background-color: #bbdefa;
+    color: #cdd6f4;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 30px;
+}
+
+h1 {
+    background-color: #45475a;
+    color: #f5e0dc;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 33px;
+}
+
+p {
+    font-size: 16px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+#guess {
+    font-size: 46px;
+    margin-top: 20px;
+    color: #f5e0dc;
+}
+
+#guessField {
+    color: #11111b;
+    width: 100%;
+    max-width: 300px;
+    height: 40px;
+    font-size: 18px;
+    border: 2px solid #89b4fa;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 20px;
+    background-color: #cdd6f4;
+}
+
+#subt {
+    background-color: #89b4fa;
+    color: #11111b;
+    width: 100%;
+    max-width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#subt:hover {
+    background-color: #74c7ec;
+}
+
+button {
+    background-color: #f38ba8;
+    color: #11111b;
+    width: 100%;
+    max-width: 250px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 18px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #fab387;
+}
+
+.resultParas {
+    margin-top: 20px;
+}
+
+.resultParas p {
+    margin: 5px 0;
+}
+
+.lastResult, .guesses {
+    color: #11111b;
+    padding: 7px;
+    display: inline-block;
+    background-color: #a6e3a1;
+    border-radius: 5px;
+}
+
+#wrapper {
+    box-sizing: border-box;
+    text-align: center;
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    background-color: #313244;
+    color: #cdd6f4;
+    font-size: 18px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+}
