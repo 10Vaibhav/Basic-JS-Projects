@@ -1,6 +1,6 @@
 # Basic-Js-Projects
 
-This repository documents my progress in learning JavaScript through hands-on projects. Each project represents a step in my journey, showcasing different skills and concepts I've mastered along the way.
+This repository documents my journey in learning JavaScript through simple, hands-on projects. Each project, while basic, represents a step in my learning process, focusing on a specific concept or skill I'm working to understand. These mini-projects serve as practical exercises to help me grasp how different JavaScript concepts apply in real-world scenarios, even at a beginner level. By building these foundational projects, I'm creating a visual record of my progress and reinforcing my understanding of core JavaScript principles.
 
 ## Projects
 
@@ -10,17 +10,8 @@ This repository documents my progress in learning JavaScript through hands-on pr
 4. **Guess the Number**: Number guessing game
 5. **Keyboard Check**: Tool to detect keyboard inputs
 6. **Unlimited Colors**: Generate and display random colors
-7. **Scroll Like NextJS**: Implementing smooth scrolling functionality
-8. **Your Typer Library**: Custom typing effect library
-9. **Mouse Circle**: Interactive mouse follower effect
-10. **Emoji**: Emoji picker or display
-11. **Text Editor**: Simple text editing tool
-12. **Random Image**: Display random images from an API
-13. **Jokes**: Fetch and display random jokes
-14. **Cats**: Cat image or fact generator
-15. **DOM CRUD**: Demonstrate Create, Read, Update, Delete operations
-16. **Debouncing**: Implement and demonstrate debouncing technique
-17. **Tic Tac Toe**: Classic game implementation
-18. **Stone Paper Scissors**: Another classic game implementation
+7. **Tic Tac Toe**: Classic game implementation
+8. **Stone Paper Scissors**: Another classic game implementation
+9. **Currency Convertor** : currency conversion tool
 
 Feel free to check out my projects and watch this space for more as I continue my JavaScript journey!
