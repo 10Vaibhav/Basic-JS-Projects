@@ -12,6 +12,6 @@ This repository documents my journey in learning JavaScript through simple, hand
 6. **Unlimited Colors**: Generate and display random colors
 7. **Tic Tac Toe**: Classic game implementation
 8. **Stone Paper Scissors**: Another classic game implementation
-9. **Currency Convertor** : currency conversion tool
+9. **Currency Convertor** : currency conversion tool 
 
 Feel free to check out my projects and watch this space for more as I continue my JavaScript journey!
