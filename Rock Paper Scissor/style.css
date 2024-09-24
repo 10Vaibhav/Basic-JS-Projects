@@ -1,0 +1,94 @@
+:root {
+    --primary-color: #081b31;
+    --secondary-color: #ffffff;
+    --hover-bg-color: #081b31;
+    --active-bg-color: #061224;
+    --font-size-large: 4rem;
+    --font-size-medium: 2rem;
+    --font-size-small: 1rem;
+    --border-radius-circle: 50%;
+    --border-radius-small: 1rem;
+    --gap-large: 5rem;
+    --gap-medium: 3rem;
+    --height-choice: 165px;
+    --width-choice: 165px;
+    --height-img: 150px;
+    --width-img: 150px;
+    --height-header: 5rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    height: var(--height-header);
+    line-height: var(--height-header);
+}
+
+.choice {
+    height: var(--height-choice);
+    width: var(--width-choice);
+    border-radius: var(--border-radius-circle);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.2s, transform 0.2s;
+}
+.choice:hover {
+    cursor: pointer;
+    background-color: var(--hover-bg-color);
+}
+
+.choice:active {
+    background-color: var(--active-bg-color);
+    transform: scale(0.95);
+}
+
+img {
+    height: var(--height-img);
+    width: var(--width-img);
+    object-fit: cover;
+    border-radius: var(--border-radius-circle);
+}
+
+
+.choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--gap-medium);
+    margin-top: var(--gap-large);
+}
+
+.score-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--font-size-medium);
+    margin-top: var(--gap-medium);
+    gap: var(--gap-large);
+}
+
+#user-score, #comp-score {
+    font-size: var(--font-size-large);
+}
+
+.msg-container {
+    margin-top: var(--gap-large);
+}
+
+#msg {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-size: var(--font-size-medium);
+    margin-top: var(--gap-large);
+    display: inline;
+    padding: var(--font-size-small);
+    border-radius: var(--border-radius-small);
+}
+
