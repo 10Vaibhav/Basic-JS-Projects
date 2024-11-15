@@ -21,3 +21,6 @@ Through these projects, I've gained experience in:
 While this is primarily a personal portfolio of projects, I'm open to suggestions and feedback. If you have ideas for improvements or spot any issues, feel free to open an issue or submit a pull request.
 
 Thank you for visiting my JS Projects repository. Happy coding! 🚀
+
+## 📄 License
+This repository is licensed under the [MIT License](LICENSE).
