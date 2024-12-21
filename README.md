@@ -6,6 +6,27 @@ Welcome to my JS Projects repository! This collection showcases my frontend deve
 
 This repository is a testament to my journey in web development, featuring projects that range from simple interactive elements to more complex web applications. Each project is crafted to highlight different aspects of frontend development, including DOM manipulation, API integration, responsive design, and modern JavaScript practices.
 
+
+## 🌟 Featured Projects
+- 1.Spotify
+- 2.Authentication Sign IN Sign UP
+- 3.QR Code Generator
+- 4.Todo Express Server
+- 5.Drum Kit
+- 6.Simon Game
+- 7.Tic Tac Toe
+- 8.Cross Origin Resource Sharing
+- 9.Guess The Number
+- 10.Rock Paper Scissor
+- 11.Hacking Simulator
+- 12.Dice Game
+- 13.BMI Calculator
+- 14.Cyberpunk Racer Game
+- 15.Unlimited Colors
+- 16.Color Changer
+- 17.Digital Clock
+- 18.KeyBoard Check
+
 ## 📚 Learning Outcomes
 
 Through these projects, I've gained experience in:
