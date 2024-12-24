@@ -26,6 +26,8 @@ This repository is a testament to my journey in web development, featuring proje
 - 16.Color Changer
 - 17.Digital Clock
 - 18.KeyBoard Check
+- 19.Secrets
+  
 
 ## 📚 Learning Outcomes
 
