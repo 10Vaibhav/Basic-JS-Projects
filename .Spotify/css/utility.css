@@ -39,3 +39,32 @@
 .p-1{
     padding:10px;
 }
+
+/* Global scrollbar styles */
+* {
+    /* Firefox */
+    scrollbar-width: thin;
+    scrollbar-color: #333 #222;
+
+    /* WebKit browsers */
+    &::-webkit-scrollbar {
+        width: 12px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: #333;
+        border-radius: 6px;
+
+        &:hover {
+            background-color: #444;
+        }
+
+        &:active {
+            background-color: #555;
+        }
+    }
+
+    &::-webkit-scrollbar-track {
+        background-color: #222;
+    }
+}
