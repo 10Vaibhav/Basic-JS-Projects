@@ -29,6 +29,7 @@ This repository is a testament to my journey in web development, featuring proje
 - 19.Simple Secrets
 - 20.Know Me (EJS Project)
 - 21.Band Generator Project (EJS)
+- 22.Restaurant (EJS)
 
 
 ## 📚 Learning Outcomes
