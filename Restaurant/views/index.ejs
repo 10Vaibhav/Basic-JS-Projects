@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nagpur Dhaba 🥘</title>
+    <link rel="stylesheet" href="/styles/main.css">
+</head>
+
+<body>
+
+    <h1>Nagpur Dhaba 🥘</h1>
+
+    <form action="/recipe" method="POST" class="buttons">
+        <button type="submit" value="Aalu" name="choice">🫓</button>
+        <button type="submit" value="Idli" name="choice">🥠</button>
+        <button type="submit" value="Veg" name="choice">🍜</button>
+    </form>
+
+    <div id="recipeContainer" class="hidden">
+
+        <% if(locals.protein_name && locals.protein_preparation && locals.salsa_name && locals.toppings){%>
+            <h2 id="recipeTitle">
+                <%=locals.protein_name %>
+            </h2>
+            <% } else{ %>
+                <h2>Pick your favourite Dhaba ingredient 👆</h2>
+
+                <% } %>
+                    <% if (locals.protein_name) { %>
+                        <h3>Ingredients:</h3>
+                        <ul id="ingredientsList">
+                            <li>
+                                <%=`${locals.protein_name}, ${locals.protein_preparation}` %>
+                            </li>
+                            <li>
+                                <%=locals.salsa_name %>
+                            </li>
+
+                            <% locals.toppings.forEach((element)=> { %>
+                                <li>
+                                    <%= `${element.quantity} of ${element.name}` %>
+                                </li>
+                                <% }); %>
+
+                        </ul>
+
+                        <% } %>
+    </div>
+
+</body>
+
+</html>
