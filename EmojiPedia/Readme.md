@@ -8,6 +8,11 @@ A simple React application that displays a dictionary of emojis with their meani
 - Clean, component-based architecture
 - Easy to update emoji database
 
+
+![App Screenshot](./public/Output_Emoji.png)
+*Main application interface showing emoji dictionary*
+
+
 ## Components
 
 - `App`: Main component that manages state and data flow
