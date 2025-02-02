@@ -4,10 +4,11 @@ import "../public/styles.css"
 function App() {
   const [headingText, setHeadingText] = useState("Hello");
   const [isHowerd, setIsHowerd] = useState(false);
-  const [name, setName] = useState("");
+  const [Fname, setFName] = useState("");
+  const [Lname, setLName] = useState("");
 
   function handleClick(event) {
-    setHeadingText(`Submited as ${name}`);
+    setHeadingText(`Submitted as `);
 
     event.preventDefault();
   }
@@ -20,20 +21,33 @@ function App() {
     setIsHowerd(false);
   }
 
-  function handleChange(event) {
+  function handleChangeFName(event) {
     console.log(event.target.value);
-    setName(event.target.value);
+    setFName(event.target.value);
   }
+
+  function handleChangeLName(event) {
+    console.log(event.target.value);
+    setLName(event.target.value);
+  }
+
 
   return (
     <div className="container">
-      <h1>{headingText}</h1>
+      <h1>{headingText} {Fname} {Lname}</h1>
       <form onSubmit={handleClick}>
         <input
-          onChange={handleChange}
+          onChange={handleChangeFName}
           type="text"
-          placeholder="What's your name?"
-          value={name}
+          placeholder="What's your First name?"
+          value={Fname}
+        />
+
+        <input
+          onChange={handleChangeLName}
+          type="text"
+          placeholder="What's your Last name?"
+          value={Lname}
         />
         <button
           style={{ backgroundColor: isHowerd ? "black" : "white" }}
